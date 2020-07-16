@@ -1,0 +1,5 @@
+jobs:
+  steps:
+    - name: Set up Variables
+        env: 
+          TEST_SECRET_TOKEN: ${{ secrets.TEST_SECRET }}
